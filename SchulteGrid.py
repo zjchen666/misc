@@ -8,7 +8,7 @@ size = ROW * COL
 table_number = 5
 
 def shuffle():
-    nums = [i for i in range(size)]
+    nums = [i for i in range(1, size + 1)]
     res  = [[i for i in xrange(COL)] for j in range(ROW)]
 
     for i in xrange(size):
